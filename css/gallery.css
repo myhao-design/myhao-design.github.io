@@ -1,0 +1,29 @@
+.grid-column {
+  font-family: "SFUGillSansRegular", "Roboto", sans-serif;
+}
+.grid-column button {
+  font-size: 1em;
+  color: #371d19;
+}
+.gallery {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33%;
+  -moz-column-width: 33%;
+  column-width: 33%;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+.gallery .pics {
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+}
+.gallery .animation {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+.gallery .pics img {
+  border-radius: 4px;
+}

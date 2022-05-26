@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'SFUGillSansBold';
+    src: url('../fonts/SFUGillSansBold.eot');
+    src: url('../fonts/SFUGillSansBold.eot') format('embedded-opentype'),
+         url('../fonts/SFUGillSansBold.woff2') format('woff2'),
+         url('../fonts/SFUGillSansBold.woff') format('woff'),
+         url('../fonts/SFUGillSansBold.ttf') format('truetype'),
+         url('../fonts/SFUGillSansBold.svg#SFUGillSansBold') format('svg');
+}
+@font-face {
+    font-family: 'SFUGillSansRegular';
+    src: url('../fonts/SFUGillSansRegular.eot');
+    src: url('../fonts/SFUGillSansRegular.eot') format('embedded-opentype'),
+         url('../fonts/SFUGillSansRegular.woff2') format('woff2'),
+         url('../fonts/SFUGillSansRegular.woff') format('woff'),
+         url('../fonts/SFUGillSansRegular.ttf') format('truetype'),
+         url('../fonts/SFUGillSansRegular.svg#SFUGillSansRegular') format('svg');
+}

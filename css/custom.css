@@ -1,0 +1,123 @@
+@import "fonts.css";
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 1em 2em 1em 2em;
+  font-size: 14px;
+  line-height: 1.6;
+  font-family: "SFUGillSansRegular", "Roboto", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+/*--logo--*/
+#logo {
+  position: fixed;
+  left: 3em;
+  top: 3em;
+  padding: 1em;
+  width: 13em;
+  line-height: 1.6;
+}
+/*--contents--*/
+.bg-portfolio {
+  background: url("../images/bg-portfolio.svg") no-repeat;
+  background-attachment: fixed;
+}
+.contents {
+  padding: 1em;
+  max-width: 800px;
+  font-size: 1.2em;
+}
+.contents img {
+  max-width: 100%;
+}
+.contents .code-block {
+  white-space: pre;
+  overflow: auto;
+  max-width: 100%;
+}
+.contents .code-block code {
+  display: block;
+  background-color: #f9f9f9;
+  padding: 10px;
+}
+.contents .code-inline {
+  background-color: #f9f9f9;
+  padding: 4px;
+}
+.contents h2,
+.contents h3 {
+  padding-top: 1em;
+  font-family: "SFUGillSansBold";
+}
+/*--Introduction--*/
+.im {
+  font-family: "SFUGillSansBold";
+  font-size: 86px;
+  color: #ff9c00;
+  line-height: 0.8;
+  text-transform: uppercase;
+}
+.name-position {
+  font-size: 35px;
+  color: #ff9c00;
+  font-family: "SFUGillSansBold";
+  text-transform: uppercase;
+  line-height: 1;
+}
+.name-position .name {
+  font-size: 28px;
+}
+.ul-intro {
+  margin: 0;
+  padding: 7px;
+  list-style: none;
+}
+.social {
+  color: #bebebe;
+  margin-left: -10px;
+  margin-bottom: 10px;
+  float: left;
+}
+.social img {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+.gr-social {
+  margin-top: 15px;
+}
+.page-intro {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 150px;
+}
+/*--Portfolio--*/
+#portfolio {
+  padding-top: 6%;
+}
+#portfolio .nav-item a {
+  color: #371d19;
+}
+#portfolio .nav-link.active {
+  color: #fff;
+  background-color: #ff9c00;
+  border-radius: 25px;
+}
+.filters {
+  display: table;
+  margin: auto;
+}
+/*--Resume--*/
+.title-resume {
+  background: linear-gradient(-90deg, #ff9c00 0%, #ff9c00, #ff4767 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  font-size: 18px;
+}
